@@ -6,6 +6,18 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
+  const normalizeResult = (text: string) => {
+    const cleaned = text
+      .trim()
+      .replace(/^[ \t\r\n]*(?:Answer|Result|Response)[:\s-]*/i, '')
+      .replace(/\\\(|\\\)/g, '')
+      .trim();
+
+    return cleaned;
+  };
+
+  const displayedResult = result ? normalizeResult(result) : '';
+
   const submitQuery = async () => {
     setError('');
     setResult('');
@@ -59,10 +71,10 @@ function App() {
         </button>
 
         {error && <div className="toast error">{error}</div>}
-        {result && (
+        {displayedResult && (
           <div className="toast result">
             <strong>Answer</strong>
-            <pre>{result}</pre>
+            <pre>{displayedResult}</pre>
           </div>
         )}
       </main>
