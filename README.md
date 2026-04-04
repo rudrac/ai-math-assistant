@@ -68,15 +68,41 @@ Free to use, modify, and integrate
 
 ---
 
-## 🚀 Quick Start (1 Minute Setup)
+## 🚀 Quick Start 
 
-```bash
-git clone https://github.com/rudrac/ai-math-assistant.git
-cd ai-math-assistant
-docker-compose up
-```
+1. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Then open: [http://localhost:3000](http://localhost:3000)
+2. Copy `.env.example` to `.env` and add your OpenAI API key:
+   ```bash
+   copy .env.example .env
+   ```
+
+3. Start the backend:
+   ```bash
+   python main.py
+   ```
+
+### Frontend
+
+1. Change into the frontend folder:
+   ```bash
+   cd frontend
+   ```
+
+2. Install Node dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the React UI:
+   ```bash
+   npm run dev
+   ```
+
+The frontend will run at `http://localhost:5173` and call the backend API at `http://localhost:8000`.
 
 ---
 
