@@ -10,7 +10,9 @@ function App() {
     const cleaned = text
       .trim()
       .replace(/^[ \t\r\n]*(?:Answer|Result|Response)[:\s-]*/i, '')
-      .replace(/\\\(|\\\)/g, '')
+      .replace(/\\\(|\\\)|\\\[/g, '')
+      .replace(/\\([A-Za-z]+)/g, '$1')
+      .replace(/\s+/g, ' ')
       .trim();
 
     return cleaned;
