@@ -20,6 +20,9 @@ function App() {
 
   const displayedResult = result ? normalizeResult(result) : '';
 
+  const apiBaseUrl =
+    import.meta.env.VITE_API_BASE_URL?.replace(/\/+$/, '') || 'http://localhost:8000';
+
   const submitQuery = async () => {
     setError('');
     setResult('');
@@ -31,7 +34,7 @@ function App() {
 
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:8000/query', {
+      const response = await fetch(`${apiBaseUrl}/query`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

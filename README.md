@@ -106,6 +106,12 @@ The frontend will run at `http://localhost:5173` and call the backend API at `ht
 
 ---
 
+## ☁️ AWS Deployment
+
+See `DEPLOYMENT.md` for ECS Express Mode (backend) + S3/CloudFront (frontend) instructions.
+
+---
+
 ## 🧠 How It Works (Architecture)
 
 * **Frontend**: React UI for natural language input
