@@ -43,7 +43,8 @@ _MATH_KEYWORDS = re.compile(
     r"equation|function|polynomial|matrix|determinant|vector|sum|product|series|"
     r"sin|cos|tan|log|ln|sqrt|pi|theta|sigma|"
     r"probability|statistics|mean|median|variance|std|stdev|"
-    r"gcd|lcm|prime|factorial|mod|modulo"
+    r"gcd|lcm|prime|factorial|mod|modulo|"
+    r"theorem|theorems|pythagoras|pythagorean"
     r")\b",
     re.IGNORECASE,
 )
