@@ -1,4 +1,4 @@
-﻿﻿# 🚀 AI Math Assistant
+# 🚀 AI Math Assistant
 
 ### The Precision-First Alternative to ChatGPT for Math
 
@@ -42,15 +42,15 @@ Free to use, modify, and integrate
 
 ---
 
-## ⚔ AI Math Assistant vs ChatGPT
+## ⚔️ AI Math Assistant vs ChatGPT
 
 | Feature                | AI Math Assistant | ChatGPT       |
 | ---------------------- | ----------------- | ------------- |
-| Symbolic Math          | ✅ Exact (SymPy)   | âŒ Approximate |
+| Symbolic Math          | ✅ Exact (SymPy)   | ❌ Approximate |
 | Hallucination Risk     | Low               | Medium        |
-| Tool-Based Computation | ✅ Yes             | âŒ Limited     |
-| Verifiability          | ✅ High            | âŒ Low         |
-| Open Source            | ✅ Yes             | âŒ No          |
+| Tool-Based Computation | ✅ Yes             | ❌ Limited     |
+| Verifiability          | ✅ High            | ❌ Low         |
+| Open Source            | ✅ Yes             | ❌ No          |
 
 👉 Built for **accuracy-first users** — students, engineers, and developers.
 
@@ -60,9 +60,11 @@ Free to use, modify, and integrate
 
 👉 Watch it in action: [https://www.youtube.com/watch?v=j5dguTrS2vs](https://www.youtube.com/watch?v=j5dguTrS2vs)
 
+Live URL - https://d1mylkqau7e0si.cloudfront.net/
+
 ---
 
-## 🖼 Screenshots / Demo Preview
+## 🖼️ Screenshots / Demo Preview
 
 > (Add GIF here showing: input → exact symbolic output)
 
@@ -106,15 +108,13 @@ The frontend will run at `http://localhost:5173` and call the backend API at `ht
 
 ---
 
-## â˜ï¸ AWS Deployment
+## ☁️ AWS Deployment
 
 See `DEPLOYMENT.md` for ECS Express Mode (backend) + S3/CloudFront (frontend) instructions.
 
 ---
 
 ## 🧠 How It Works (Architecture)
-
-![AI Math Assistant Architecture](architecture_ai-math-assitant.jpg)
 
 * **Frontend**: React UI for natural language input
 * **Backend**: FastAPI service
@@ -128,19 +128,19 @@ User Input → AI Agent → Tool Call → SymPy → Exact Output → UI
 
 ## 🎯 Use Cases
 
-👩 **Students & Educators**
+👩‍🎓 **Students & Educators**
 
 * Homework help
 * Classroom demos
 * Step-by-step learning
 
-🧑 **Engineers & Researchers**
+🧑‍🔬 **Engineers & Researchers**
 
 * Symbolic computation
 * Equation solving
 * Quick analysis
 
-👨 **Developers**
+👨‍💻 **Developers**
 
 * Embed as API
 * Extend math capabilities
@@ -152,7 +152,7 @@ User Input → AI Agent → Tool Call → SymPy → Exact Output → UI
 
 ---
 
-## ðŸ’¡ Example Queries
+## 💡 Example Queries
 
 * Solve: x^2 - 4 = 0
 * Integrate: sin(x)^2
@@ -176,9 +176,9 @@ This project aims to build **trustworthy, domain-specific AI systems** that:
 Contributions are welcome!
 
 * ⭐ Star the repo
-* ðŸ´ Fork and improve
-* ðŸ› Report issues
-* ðŸ’¡ Suggest features
+* 🍴 Fork and improve
+* 🐛 Report issues
+* 💡 Suggest features
 
 ---
 
@@ -199,13 +199,12 @@ If you find this useful:
 
 ---
 
-## ðŸ§‘â€ðŸ’» Author
+## Author
 
 Built by an AI Solution Architect focused on building **scalable, production-ready AI systems**.
 
 ---
 
-## ðŸ“œ License
+## License
 
 MIT License
-
