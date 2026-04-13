@@ -1,14 +1,14 @@
-﻿# ðŸš€ AI Math Assistant
+﻿﻿# 🚀 AI Math Assistant
 
 ### The Precision-First Alternative to ChatGPT for Math
 
 Tired of incorrect or approximate math answers from general-purpose AI?
 
-**AI Math Assistant** is a specialized, tool-driven AI system that delivers **exact, symbolic, and verifiable math solutions** â€” not guesses.
+**AI Math Assistant** is a specialized, tool-driven AI system that delivers **exact, symbolic, and verifiable math solutions** — not guesses.
 
 ---
 
-## âš¡ Why This Exists
+## ⚡ Why This Exists
 
 General AI tools are powerful, but when it comes to math:
 
@@ -16,59 +16,59 @@ General AI tools are powerful, but when it comes to math:
 * They hallucinate
 * They lack verifiability
 
-ðŸ‘‰ Math needs **precision, not probability**.
+👉 Math needs **precision, not probability**.
 
 ---
 
-## ðŸ”¥ Key Features
+## 🔥 Key Features
 
-âœ… **Exact Symbolic Computation**
+✅ **Exact Symbolic Computation**
 Powered by SymPy for algebra, calculus, and equation solving
 
-âœ… **Tool-Driven AI (Not Just Text Generation)**
+✅ **Tool-Driven AI (Not Just Text Generation)**
 Uses LangChain agents to call real math engines
 
-âœ… **No Hallucinations**
+✅ **No Hallucinations**
 Deterministic outputs you can trust
 
-âœ… **Full-Stack Application**
+✅ **Full-Stack Application**
 FastAPI backend + React frontend
 
-âœ… **Local & Docker Deployment**
+✅ **Local & Docker Deployment**
 No API dependency for core math logic
 
-âœ… **Open Source & Extensible**
+✅ **Open Source & Extensible**
 Free to use, modify, and integrate
 
 ---
 
-## âš”ï¸ AI Math Assistant vs ChatGPT
+## ⚔ AI Math Assistant vs ChatGPT
 
 | Feature                | AI Math Assistant | ChatGPT       |
 | ---------------------- | ----------------- | ------------- |
-| Symbolic Math          | âœ… Exact (SymPy)   | âŒ Approximate |
+| Symbolic Math          | ✅ Exact (SymPy)   | âŒ Approximate |
 | Hallucination Risk     | Low               | Medium        |
-| Tool-Based Computation | âœ… Yes             | âŒ Limited     |
-| Verifiability          | âœ… High            | âŒ Low         |
-| Open Source            | âœ… Yes             | âŒ No          |
+| Tool-Based Computation | ✅ Yes             | âŒ Limited     |
+| Verifiability          | ✅ High            | âŒ Low         |
+| Open Source            | ✅ Yes             | âŒ No          |
 
-ðŸ‘‰ Built for **accuracy-first users** â€” students, engineers, and developers.
-
----
-
-## ðŸŽ¥ Demo
-
-ðŸ‘‰ Watch it in action: [https://www.youtube.com/watch?v=j5dguTrS2vs](https://www.youtube.com/watch?v=j5dguTrS2vs)
+👉 Built for **accuracy-first users** — students, engineers, and developers.
 
 ---
 
-## ðŸ–¼ï¸ Screenshots / Demo Preview
+## 🎥 Demo
 
-> (Add GIF here showing: input â†’ exact symbolic output)
+👉 Watch it in action: [https://www.youtube.com/watch?v=j5dguTrS2vs](https://www.youtube.com/watch?v=j5dguTrS2vs)
 
 ---
 
-## ðŸš€ Quick Start 
+## 🖼 Screenshots / Demo Preview
+
+> (Add GIF here showing: input → exact symbolic output)
+
+---
+
+## 🚀 Quick Start 
 
 1. Install Python dependencies:
    ```bash
@@ -112,7 +112,7 @@ See `DEPLOYMENT.md` for ECS Express Mode (backend) + S3/CloudFront (frontend) in
 
 ---
 
-## ðŸ§  How It Works (Architecture)
+## 🧠 How It Works (Architecture)
 
 ![AI Math Assistant Architecture](architecture_ai-math-assitant.jpg)
 
@@ -122,31 +122,31 @@ See `DEPLOYMENT.md` for ECS Express Mode (backend) + S3/CloudFront (frontend) in
 * **Math Engine**: SymPy (symbolic computation)
 
 Flow:
-User Input â†’ AI Agent â†’ Tool Call â†’ SymPy â†’ Exact Output â†’ UI
+User Input → AI Agent → Tool Call → SymPy → Exact Output → UI
 
 ---
 
-## ðŸŽ¯ Use Cases
+## 🎯 Use Cases
 
-ðŸ‘©â€ðŸŽ“ **Students & Educators**
+👩 **Students & Educators**
 
 * Homework help
 * Classroom demos
 * Step-by-step learning
 
-ðŸ§‘â€ðŸ”¬ **Engineers & Researchers**
+🧑 **Engineers & Researchers**
 
 * Symbolic computation
 * Equation solving
 * Quick analysis
 
-ðŸ‘¨â€ðŸ’» **Developers**
+👨 **Developers**
 
 * Embed as API
 * Extend math capabilities
 * Integrate into apps
 
-ðŸ§  **Math Enthusiasts**
+🧠 **Math Enthusiasts**
 
 * Explore problems with precision
 
@@ -161,7 +161,7 @@ User Input â†’ AI Agent â†’ Tool Call â†’ SymPy â†’ Exact Ou
 
 ---
 
-## ðŸŒ Open Source Vision
+## 🌍 Open Source Vision
 
 This project aims to build **trustworthy, domain-specific AI systems** that:
 
@@ -171,18 +171,18 @@ This project aims to build **trustworthy, domain-specific AI systems** that:
 
 ---
 
-## ðŸ¤ Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
-* â­ Star the repo
+* ⭐ Star the repo
 * ðŸ´ Fork and improve
 * ðŸ› Report issues
 * ðŸ’¡ Suggest features
 
 ---
 
-## ðŸ“ˆ Roadmap
+## 📈 Roadmap
 
 * Advanced plotting
 * Multi-step explanations
@@ -191,11 +191,11 @@ Contributions are welcome!
 
 ---
 
-## â­ Support
+## ⭐ Support
 
 If you find this useful:
 
-ðŸ‘‰ **Star this repo to support the project**
+👉 **Star this repo to support the project**
 
 ---
 
