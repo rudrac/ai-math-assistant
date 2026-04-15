@@ -124,7 +124,7 @@ See `DEPLOYMENT.md` for ECS Express Mode (backend) + S3/CloudFront (frontend) in
 Flow:
 User Input → AI Agent → Tool Call → SymPy → Exact Output → UI
 
----
+![AI Math Assistant Architecture](architecture_ai-math-assitant.jpg)
 
 ## 🎯 Use Cases
 
