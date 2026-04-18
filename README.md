@@ -189,6 +189,8 @@ Contributions are welcome!
 * API access layer
 * SaaS version
 
+For a more detailed handoff backlog, see [FUTURE_UPDATES.md](FUTURE_UPDATES.md).
+
 ---
 
 ## ⭐ Support
