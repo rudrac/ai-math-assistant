@@ -1,6 +1,6 @@
 # Future Updates
 
-This document captures probable next updates for `AI Math Assistant` so the project can be paused cleanly and resumed later by any interested contributor.
+This document captures probable next updates for `AI Math Assistant` so the project can be paused cleanly and resumed later when we get some interest and time.
 
 ## Current Baseline
 
